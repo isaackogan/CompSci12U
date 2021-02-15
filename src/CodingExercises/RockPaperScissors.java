@@ -1,4 +1,4 @@
-package Level1;
+package CodingExercises;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class RockPaperScissors {
         int p1InputIndex = validChars.indexOf(roundString.charAt(0)), p2InputIndex = validChars.indexOf(roundString.charAt(1));
 
         // Performing math to determine winners (modulus lets us create a circle R -> P -> S -> R -> ...)
-        return p1InputIndex == p2InputIndex ? 0 : ((p1InputIndex + 1) % 3 == p2InputIndex % 3 ? 2 : 0);
+        return p1InputIndex == p2InputIndex ? 0 : ((p1InputIndex + 1) % 3 == p2InputIndex % 3 ? 2 : 1);
 
     }
 

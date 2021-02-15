@@ -1,4 +1,4 @@
-package Level0;
+package CodingExercises;
 import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -13,12 +13,12 @@ public class TransistorGain {
             Scanner myScanner = new Scanner(System.in);
 
             // Getting user Input
-            System.out.println("Enter the amount of collector current (in Amperes): ");
+            System.out.print("Enter the amount of collector current (in Amperes): ");
             double collCurrent = myScanner.nextDouble();
 
             if (collCurrent == 0) runProgram.set(false);
 
-            System.out.println("Enter the amount of base current (in Amperes): ");
+            System.out.print("Enter the amount of base current (in Amperes): ");
             double baseCurrent = myScanner.nextDouble();
 
             // Math & Display

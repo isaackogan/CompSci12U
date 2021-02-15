@@ -1,4 +1,4 @@
-package Level2;
+package CodingExercises;
 
 import java.util.Locale;
 import java.util.Map;

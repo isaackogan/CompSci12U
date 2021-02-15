@@ -1,4 +1,4 @@
-package Level3;
+package CodingExercises;
 import java.util.Locale;
 import java.util.Map;
 import java.util.TreeMap;
